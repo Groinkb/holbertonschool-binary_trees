@@ -41,7 +41,7 @@ size_t binary_tree_height(const binary_tree_t *tree)
 
 	if (tree->right != NULL)
 	{
-		der_heigth = binary_tree_height(tree->right);
+			der_heigth = binary_tree_height(tree->right);
 	}
 
 	if (der_heigth >= iz_heigth)
